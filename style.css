@@ -1,0 +1,14 @@
+/* 
+  Fichier CSS - La Décoration
+  C'est ici qu'on va donner du style à notre voiture ! 🚗
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Empêche l'apparition de barres de défilement */
+  font-family: 'Arial', sans-serif; /* Une jolie police par défaut */
+  background-color: #f0f0f0; /* Fond gris clair pour l'instant*/
+}
+
+/* On va bientôt ajouter le style pour les "couches" ici */

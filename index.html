@@ -3,11 +3,51 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Cadeau pour Thomas</title>
+    <title>Cadeau pour Thomas - Notre Roadtrip</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <!-- On va écrire notre code ici ! -->
+    <!-- Le conteneur principal qui représente tout l'écran -->
+    <div class="roadtrip-container">
+
+        <!-- Couche 1 : Le paysage (arrière-plan qui défile) -->
+        <div class="layer-landscape" id="landscape">
+            <!-- L'image du paysage changera ici -->
+        </div>
+
+        <!-- Couche 2 : L'habitacle de la voiture (fixe par-dessus) -->
+        <div class="layer-car-interior">
+            <!-- L'image du tableau de bord viendra ici via CSS ou une balise img -->
+
+            <!-- Couche 3 : Les éléments interactifs sur le tableau de bord -->
+
+            <!-- L'écran du GPS -->
+            <div class="gps-screen">
+                <h2 id="location-name">Point de départ</h2>
+            </div>
+
+            <!-- L'écran du Téléphone -->
+            <div class="phone-screen">
+                <img src="" alt="Photo souvenir" id="memory-photo">
+            </div>
+
+            <!-- Le panneau où tu racontes l'histoire -->
+            <div class="story-panel">
+                <p id="story-text">Prêt pour le départ, mon amour ?</p>
+            </div>
+
+            <!-- Les boutons pour avancer et reculer -->
+            <div class="controls">
+                <button id="btn-prev">⬅️ Précédent</button>
+                <button id="btn-next">Suivant ➡️</button>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
